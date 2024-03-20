@@ -1,0 +1,24 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from visier_authentication_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from visier_authentication_python_sdk.model.authentication_asid_token_authentication200_response import AuthenticationAsidTokenAuthentication200Response
+from visier_authentication_python_sdk.model.authentication_asid_token_authentication_response import AuthenticationAsidTokenAuthenticationResponse
+from visier_authentication_python_sdk.model.authentication_o_auth2_token200_response import AuthenticationOAuth2Token200Response
+from visier_authentication_python_sdk.model.authentication_o_auth2_token_response import AuthenticationOAuth2TokenResponse
+from visier_authentication_python_sdk.model.authentication_request import AuthenticationRequest
+from visier_authentication_python_sdk.model.authentication_ticket_authentication200_response import AuthenticationTicketAuthentication200Response
+from visier_authentication_python_sdk.model.authentication_ticket_authentication_response import AuthenticationTicketAuthenticationResponse
+from visier_authentication_python_sdk.model.google_protobuf_any import GoogleProtobufAny
+from visier_authentication_python_sdk.model.status import Status
+from visier_authentication_python_sdk.model.token_request_body import TokenRequestBody
+from visier_authentication_python_sdk.model.token_response import TokenResponse
